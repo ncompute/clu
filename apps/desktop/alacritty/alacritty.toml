@@ -1,0 +1,72 @@
+# Window
+[window]
+startup_mode = "Maximized"
+padding.x = 20
+padding.y = 18
+opacity = 0.98
+decorations = "none"
+
+# Keyboard
+[keyboard]
+bindings = [
+  { key = "Left",  mods = "Alt",     chars = "\u001bB"   },
+  { key = "Right", mods = "Alt",     chars = "\u001bF"   },
+  { key = "Left",  mods = "Command", chars = "\u001bOH"  },
+  { key = "Right", mods = "Command", chars =  "\u001bOF" },
+  { key = "Back",  mods = "Command", chars = "\u0015"    },
+]
+
+# Fonts
+[font]
+offset.x = 0  # For letter spacing (default: 0)
+offset.y = 2  # For line spacing (default: 0)
+normal = { family = "JetBrainsMono Nerd Font Mono", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font Mono", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font Mono", style = "Italic" }
+
+size = 14
+
+# Theme
+[colors.primary]
+background = "0x1b1e28"
+foreground = "0xa6accd"
+
+[colors.cursor]
+text = "CellBackground"
+cursor = "CellForeground"
+
+[colors.search.matches]
+foreground = "0x1b1e28"
+background = "0xadd7ff"
+
+[colors.search.focused_match]
+foreground = "0x1b1e28"
+background = "0xadd7ff"
+
+[colors.selection]
+text = "CellForeground"
+background = "0x303340"
+
+[colors.vi_mode_cursor]
+text = "CellBackground"
+cursor = "CellForeground"
+
+[colors.normal]
+black = "0x1b1e28"
+red = "0xd0679d"
+green = "0x5de4c7"
+yellow = "0xfffac2"
+blue = "0x89ddff"
+magenta = "0xfcc5e9"
+cyan = "0xadd7ff"
+white = "0xffffff"
+
+[colors.bright]
+black = "0xa6accd"
+red = "0xd0679d"
+green = "0x5de4c7"
+yellow = "0xfffac2"
+blue = "0xadd7ff"
+magenta = "0xfae4fc"
+cyan = "0x89ddff"
+white = "0xffffff"
